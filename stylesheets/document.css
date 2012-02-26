@@ -183,20 +183,13 @@ img.map-pin {
   opacity: .4;
 }
 
-.location h1 {
-  color: #AAA;
-  display: inline-block;
-  float: left;
-  font-weight: 700;
-}
-
 .location ul li {
   display: inline-block;
   line-height: 1.3em;
 }
 
 .location ul li a {
-  color: #AAA;
+  color: #888;
   text-decoration: underline;
 }
 
