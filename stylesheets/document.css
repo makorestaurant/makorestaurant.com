@@ -130,8 +130,13 @@ nav h1 span.catering {
 
 nav ul li {
   letter-spacing: 1px;
-  padding: 7px 0;
+  margin-left: -7px;
+  padding: 7px 0 7px 7px;
   text-transform: uppercase;
+}
+
+nav ul li:hover {
+  background-color: rgba(218, 188, 38, 0.2);
 }
 
 nav ul.aside {
@@ -140,12 +145,13 @@ nav ul.aside {
 
 a {
   color: #333;
+  display: block;
   text-decoration: none;
 }
 
 a:hover {
-  color: #CCC;
-  text-decoration: underline;
+  color: #333;
+  text-decoration: none;
 }
 
 
@@ -177,14 +183,15 @@ a:hover {
 
 img.map-pin { 
   position: absolute;
-    bottom: 2.8em;
-    left: -1.8em;
+    bottom: 2.6em;
+    left: -1.5em;
   height: 20px;
   opacity: .4;
 }
 
 .location ul li {
   display: inline-block;
+  font-size: 0.935em;
   line-height: 1.3em;
 }
 
@@ -194,7 +201,7 @@ img.map-pin {
 }
 
 .location ul li a:hover {
-  color: #555;
+  color: #dabc26;
 }
 
 .location {
