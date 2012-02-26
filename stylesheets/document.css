@@ -78,46 +78,145 @@ table {
 /* =G L O B A L
 -------------------------------------------- */
 
-html, body { height: 100%; }
+html, body { 
+  height: auto; 
+}
 
 html {
-  background: #FAFAFA;
+  background-image: url("/images/furley_bg.png");
+  background-repeat: repeat;
+  background-color: #FAFAFA;  
 }
 
 body {
-  font-family: 'Michroma', Georgia, serif;
+  border-top: 5px solid #FFF;
+  font-family: 'Cardo', Georgia, serif;
   font-size: 100%;
-  margin: 0 auto;
-  padding: 3em;
-  width: 37.625em;
+  margin: 0;
 }
 
-header {
-  padding-top: 15em;
+div[role=navigation] {
+  float: left;
+  font-weight: 700;
+  position: relative;
+  text-shadow: 1px 2px 2px #FFF;
+  width: 170px;
 }
 
-header h1 {
-  font-size: 2em;
-  line-height: 1em;
-  padding-bottom: 0.5em;
+div[role=main] {
+  height: 750px;
+  margin: 6em auto 0 auto;
+  width: 943px;
 }
 
-header div.address {
-  padding-bottom: 0.5em;
+nav h1 {
+  font-size: 2.7em;
+  font-weight: normal;
+  line-height: 0.75em;
+  padding: 0.25em 0 0.5em 0;
+  text-transform: uppercase;
+  width: 100%;
 }
 
-header span.contact-info {
-  padding-right: 1em;
+nav h1 span.catering {
+  border-bottom: 1px solid #FFF;
+  display: block;
+  font-size: 0.52em;
+  letter-spacing: 3px;
+  line-height: 1.333em;
+  padding-bottom: 7px;
+  width: 140px;
+}
+
+nav ul li {
+  letter-spacing: 1px;
+  padding: 7px 0;
+  text-transform: uppercase;
+}
+
+nav ul.aside {
+  list-style: none;
 }
 
 a {
+  color: #333;
   text-decoration: none;
 }
 
 a:hover {
+  color: #CCC;
   text-decoration: underline;
 }
 
-ul.aside {
-  list-style: none;
+
+.content {
+  background-color: #FFF;
+
+  -webkit-box-shadow: 0px 0px 3px 2px #E5E5E5;
+  -moz-box-shadow: 0px 0px 3px 2px #E5E5E5;
+  box-shadow: 0px 0px 3px 2px #E5E5E5;
+
+  float: left;
+  height: 500px;
+  width: 772px;
 }
+
+.content img { 
+  margin: 10px;
+}
+
+.content figcaption { 
+  color: #444;
+  display: block;
+  background-color: #FBFBFB;
+  font-size: 0.75em;
+  font-weight: 700;
+  padding: 10px 0 10px 10px;
+  text-transform: uppercase;
+}
+
+img.map-pin { 
+  position: absolute;
+    bottom: 2.8em;
+    left: -1.8em;
+  height: 20px;
+  opacity: .4;
+}
+
+.location h1 {
+  color: #AAA;
+  display: inline-block;
+  float: left;
+  font-weight: 700;
+}
+
+.location ul li {
+  display: inline-block;
+  line-height: 1.3em;
+}
+
+.location ul li a {
+  color: #AAA;
+  text-decoration: underline;
+}
+
+.location ul li a:hover {
+  color: #555;
+}
+
+.location {
+  color: #999;
+  font-size: 0.85em;
+  display: inline-block;
+  margin-top: 5em;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
