@@ -61,11 +61,7 @@
 /**
 * Classes for multiple grids
 *
-<<<<<<< HEAD
 * When using more than one grid, remember to set the numberOfGrids 
-=======
-* When using more than one grid, remember to set the numberOfGrids
->>>>>>> b6c59c8d67adc5af640504dfdd16bc6b366e9d02
 * option in the hashgrid.js file.
 */
 #grid.grid-1 div.vert{
