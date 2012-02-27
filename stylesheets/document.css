@@ -80,12 +80,11 @@ table {
 
 html, body { 
   height: auto; 
-}
 
 html {
   background-image: url("/images/furley_bg.png");
   background-repeat: repeat;
-  background-color: #FAFAFA;  
+  background-color: #FAFAFA;
 }
 
 body {
@@ -171,7 +170,11 @@ a:hover {
   margin: 10px;
 }
 
-.content figcaption { 
+.content div, img {
+  margin: 10px;
+}
+
+.content figcaption {
   color: #444;
   display: block;
   background-color: #FBFBFB;
