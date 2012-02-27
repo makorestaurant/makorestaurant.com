@@ -78,14 +78,14 @@ table {
 /* =G L O B A L
 -------------------------------------------- */
 
-html, body { 
-  height: auto; 
+html, body {
+  height: auto;
 }
 
 html {
   background-image: url("/images/furley_bg.png");
   background-repeat: repeat;
-  background-color: #FAFAFA;  
+  background-color: #FAFAFA;
 }
 
 body {
@@ -167,11 +167,11 @@ a:hover {
   width: 772px;
 }
 
-.content img { 
+.content div, img {
   margin: 10px;
 }
 
-.content figcaption { 
+.content figcaption {
   color: #444;
   display: block;
   background-color: #FBFBFB;
@@ -181,7 +181,7 @@ a:hover {
   text-transform: uppercase;
 }
 
-img.map-pin { 
+img.map-pin {
   position: absolute;
     bottom: 2.6em;
     left: -1.5em;
@@ -211,12 +211,4 @@ img.map-pin {
   margin-top: 5em;
   width: 100%;
 }
-
-
-
-
-
-
-
-
 
