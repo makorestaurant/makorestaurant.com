@@ -164,20 +164,25 @@ a:hover {
 
   float: left;
   height: 500px;
-  width: 772px;
+  width: auto;
 }
 
 .content div, img {
   margin: 10px;
 }
 
+.image-container { 
+  width: auto;
+}
+
 .content figcaption {
   color: #444;
   display: block;
-  background-color: #FBFBFB;
   font-size: 0.75em;
   font-weight: 700;
-  padding: 10px 0 10px 10px;
+  height: 2em;
+  margin-top: 1em;
+  padding: 10px 0;
   text-transform: uppercase;
 }
 
